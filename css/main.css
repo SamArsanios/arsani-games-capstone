@@ -1,0 +1,52 @@
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: #babbc3;
+  opacity: 1;
+}
+
+input[type="text"] {
+  width: 75%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.btn-search {
+  width: 75%;
+  margin: 15px auto;
+}
+
+.btn-how {
+  width: 25%;
+  margin: 2em 2em;
+}
+
+.body-container {
+  text-align: center;
+}
+
+.steps-item {
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+
+.img-search {
+  border: 2px solid blue;
+  width: 10%;
+}
+
+.steps-item h3 {
+  border: 2px solid springgreen;
+}
+
+.steps-item p {
+  border: 2px solid red;
+}
