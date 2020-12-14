@@ -1,0 +1,45 @@
+/* top section */
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-list {
+  background-color: #d4574a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.game-list-item {
+  margin: 1em auto;
+  /* border: 1px solid black; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 4px 8px #aaa;
+  text-align: center;
+}
+
+.game-list-item img {
+  width: 100%;
+  /* border-radius: 50%; */
+}
+
+.btn-view {
+  background-color: #d4574a;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
