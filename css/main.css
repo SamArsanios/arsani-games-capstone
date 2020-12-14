@@ -10,7 +10,7 @@
   align-items: center;
   width: 80%;
   background-color: #babbc3;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 input[type="text"] {

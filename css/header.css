@@ -3,12 +3,13 @@
 .nav-wrapper {
   /* display: flex;
   flex-direction: column; */
+  background-color: #d4574a;
+  color: #fff;
 }
 
 .nav-1 {
   border: 2px solid red;
   text-align: center;
-  background-color: #d4574a;
   /* width: 20%;
   height: 10%; */
 }
@@ -31,4 +32,9 @@
 
 .nav-2 .fa {
   padding: 0 1.4em;
+}
+
+.nav-2 a {
+  color: #fff;
+  cursor: pointer;
 }
