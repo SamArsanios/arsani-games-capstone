@@ -1,0 +1,77 @@
+.footer-container {
+  background-color: #000;
+  padding: 0.3em 0;
+}
+
+.top-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* background-color: #000; */
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin: 2em 2em;
+}
+
+.top-footer ul li {
+  list-style: none;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0.6em 2em;
+}
+
+.right-top-footer {
+  margin-right: 3em;
+}
+
+/* mid footer */
+.mid-footer {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+
+.mid-footer p {
+  color: #aaa;
+  margin: 0;
+}
+
+input[type="email"] {
+  width: 70%;
+  font-size: 1em;
+  border: 1px solid #fff;
+  padding: 0.6em;
+}
+
+.btn-subscribe {
+  padding: 0.5em;
+  width: 14%;
+  font-size: 1em;
+}
+
+/* bottom footer */
+.bottom-footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.fa {
+  font-size: 1em;
+}
+
+.bottom-footer p {
+  margin-bottom: 0;
+}
