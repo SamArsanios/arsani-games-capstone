@@ -22,8 +22,12 @@
 
 .info-btn {
   color: #e27f65;
-  padding: 0.5em;
+  padding: 0.7em;
   margin-bottom: 1em;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
 }
 
 /* Mid section of mid section */

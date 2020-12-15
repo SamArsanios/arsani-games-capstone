@@ -11,6 +11,12 @@ select {
   box-sizing: border-box;
 }
 
+.inputs {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
 .btn-list {
   background-color: #d4574a;
   color: white;
@@ -22,11 +28,19 @@ select {
 }
 
 .game-list-item {
-  margin: 1em auto;
+  margin: 1em 1em;
   /* border: 1px solid black; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3em;
   box-shadow: 0 4px 8px #aaa;
   text-align: center;
+  width: 85%;
+  margin: 3em auto;
+}
+
+.game-list-container h2 {
+  margin: 1em 0.7em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .game-list-item img {
@@ -34,7 +48,13 @@ select {
   /* border-radius: 50%; */
 }
 
+.game-list-item h3,
+.game-list-item p {
+  margin: 0.3em 0;
+}
+
 .btn-view {
+  font-size: 0.8em;
   background-color: #d4574a;
   color: white;
   padding: 8px 10px;
