@@ -1,7 +1,11 @@
+/* TOP SECTION 1 */
 .section-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url(/assets/images/gaming10.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .search-by {
@@ -10,23 +14,42 @@
   align-items: center;
   width: 80%;
   background-color: #babbc3;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 input[type="text"] {
   width: 75%;
   height: 20px;
   border-radius: 5px;
+  border: none;
+  padding: 0.6em;
+  font-size: 1em;
 }
 
 .btn-search {
   width: 75%;
   margin: 15px auto;
+  background-color: #d4574a;
+  padding: 10px 10px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  opacity: 1;
 }
 
 .btn-how {
   width: 25%;
   margin: 2em 2em;
+  background-color: #9f9f9f;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
 }
 
 .section-2 {
@@ -34,19 +57,37 @@ input[type="text"] {
 }
 
 .steps-item {
-  border: 2px solid yellowgreen;
+  /* border: 2px solid yellowgreen; */
   text-align: center;
 }
 
 .img-search {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 10%;
 }
 
 .steps-item h3 {
-  border: 2px solid springgreen;
+  /* border: 2px solid springgreen; */
 }
 
 .steps-item p {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+}
+
+.mid-section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.mid-section h2 {
+  font-size: 1.5em;
+}
+
+.mid-section h3 {
+  font-size: 1em;
+}
+
+.mid-section p {
+  font-size: 0.9em;
+  margin-top: 0.3em;
 }
