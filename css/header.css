@@ -1,5 +1,4 @@
 /* NAVIVAGTION */
-
 .nav-wrapper {
   /* display: flex;
   flex-direction: column; */
@@ -11,13 +10,13 @@
   border: 2px solid red;
   text-align: center;
   /* width: 20%;
-  height: 10%; */
+    height: 10%; */
 }
 
 .logo {
   width: 15%;
   padding: 0;
-  /* height: 15%; */
+  height: 100%;
   border: 2px solid green;
 }
 
@@ -38,3 +37,33 @@
   color: #fff;
   cursor: pointer;
 }
+/* Media Queries Medium Screen */
+/* @media screen and (min-width: 768px) {
+  .nav-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-1 {
+    text-align: left;
+    width: 50%;
+  }
+  .logo {
+    width: 40%;
+    padding: 0;
+  }
+  .nav-2 {
+    margin-left: 0;
+  }
+  .nav-2 .fa {
+    padding: 1em 1em;
+    font-size: 1.6em;
+  }
+} */
+
+/* Large Screens */
+/* @media screen and (min-width: 1024px) {
+  .nav-2 {
+    margin-left: 8.9em;
+  }
+} */
