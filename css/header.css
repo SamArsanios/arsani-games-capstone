@@ -31,13 +31,19 @@
 }
 
 .nav-2 .fa {
-  padding: 0 1.4em;
+  padding: 40px 9px 0px 9px;
 }
 
 .nav-2 a {
   color: #fff;
   cursor: pointer;
 }
+
+.d-lg-inline {
+  font-size: 0.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* Media Queries Medium Screen */
 @media (min-width: 768px) and (max-width: 1024px) {
   .nav-wrapper {
@@ -59,8 +65,8 @@
     width: 100%;
   }
   .nav-2 .fa {
-    padding: 1em 1em;
-    font-size: 1.6em;
+    /* padding: 1em 1em;
+    font-size: 1.6em; */
   }
 }
 
@@ -75,7 +81,8 @@
     text-align: left;
   }
   .nav-2 {
-    margin-left: 8.9em;
+    margin-left: 7.9em;
     width: 100%;
+    padding: 2.5em 0 0 0;
   }
 }
