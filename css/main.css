@@ -62,7 +62,7 @@ input[type="text"] {
   /* border: 2px solid yellowgreen; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .img-search {
@@ -89,6 +89,10 @@ input[type="text"] {
   margin: 1.5em auto;
   text-transform: uppercase;
   font-weight: 550;
+}
+
+.section-2 h2 {
+  color: #d4574a;
 }
 
 .mid-section h3 {
