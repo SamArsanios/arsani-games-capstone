@@ -14,7 +14,9 @@ An online gaming website.This project has 3 pages, namely: home page, search pag
 
 ### Home page card layout
 
-![Home Page Layout](./assets/images/screenshot-1.JPG)(./assets/images/screenshot-2.JPG)(./assets/images/screenshot-3.JPG)
+![Home Page Layout](./assets/images/screenshot-1.JPG)
+(./assets/images/screenshot-2.JPG)
+(./assets/images/screenshot-3.JPG)
 
 
 <!--### Search page layout
