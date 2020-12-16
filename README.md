@@ -4,19 +4,14 @@
 
 # HTML & CSS3 Capstone Project
 
-An online gaming website.This project has 3 pages, namely: home page, search page, and show page. It is responsive and has 3 breakpoints. 
+An online gaming website.This project has 3 pages, homepage, search games page, and game details page. It is responsive and has 3 breakpoints. 
 
-
-## Project files
-
-- Figma [files](https://www.figma.com/file/sVeLvwLhlhU4rdbDDmKp3s/html-capstone?node-id=0%3A1) used for wireframing the website design.
-- [Logo](https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg) from TailwindUI
 
 ### Home page card layout
 
 ![Home Page Layout](./assets/images/screenshot-1.JPG)
-(./assets/images/screenshot-2.JPG)
-(./assets/images/screenshot-3.JPG)
+![Home Page Layout](./assets/images/screenshot-2.JPG)
+![Home Page Layout](./assets/images/screenshot-3.JPG)
 
 
 <!--### Search page layout
