@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/icons/favicon.png">
     <title>Games</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/games-list.css">
@@ -28,29 +34,41 @@
     </header>
 
     <main>
-
-        <div class="inputs">
+        <div class="form-container">
             <h2>Filter by Genre, Age Limit, Publisher </h2>
-            <label for="gname">Game:</label><br>
-            <input type="text" id="gname" name="gname">
-            <label for="genre">Genre</label>
-            <select id="genre" name="cars">
-                <option value="adventure">Adventure</option>
-                <option value="action">Action</option>
-                <option value="sports">Sports</option>
-            </select>
-            <label for="date">Release Year</label>
-            <input type="date">
-            <label for="genre">Game Publisher</label>
-            <input type="text">
-            <button class="btn-list" type="button">Search</button>
-            <button class="btn-list" type="button">Clear</button>
+            <div class="inputs">
+
+                <div class="games-list-item">
+                    <label for="gname">Game:</label><br>
+                    <input type="text" id="gname" name="gname">
+                </div>
+                <div class="games-list-item">
+                    <label for="genre">Genre</label>
+                    <select id="genre" name="cars">
+                        <option value="adventure">Adventure</option>
+                        <option value="action">Action</option>
+                        <option value="sports">Sports</option>
+                    </select>
+                </div>
+                <div class="games-list-item">
+                    <label for="date">Release Year</label>
+                    <input type="date">
+                </div>
+                <div class="games-list-item">
+                    <label for="genre">Game Publisher</label>
+                    <input type="text">
+                </div>
+                <div class="games-list-item">
+                    <button class="btn-list" type="button">Search</button>
+                    <button class="btn-list" type="button">Clear</button>
+                </div>
+            </div>
         </div>
 
         <!-- Cards Section  -->
         <section class="games-list">
+            <h2>Search result found 3 game(s)</h2>
             <div class="game-list-container">
-                <h2>Search result found 3 game(s)</h2>
                 <div class="game-list-item">
                     <img src="assets/images/game-list-1.jpg" alt="">
                     <h3>Uncharted</h3>
@@ -82,52 +100,55 @@
     <!-- FOOTER -->
     <footer class="footer-container">
         <!-- TOP FOOTER -->
-        <div class="top-footer">
+        <div class="top-footer ">
             <div class="left-top-footer">
-                <ul>
-                    <li>Home</li>
-                    <li>Search</li>
-                    <li>About</li>
-                    <li>Contact Us</li>
+                <ul class="d-md-flex flex-md-row">
+                    <li class="px-md-2">Home</li>
+                    <li class="px-md-2">Search</li>
+                    <li class="px-md-2">About</li>
+                    <li class="px-md-2">Contact Us</li>
                 </ul>
             </div>
-            <div class="right-top-footer">
-                <ul>
-                    <li>Blog</li>
-                    <li>Rss Feed</li>
-                    <li>Quora</li>
-                    <li>Tumblr</li>
+            <div class=" right-top-footer">
+                <ul class="d-md-flex flex-md-row ">
+                    <li class="px-md-2">Blog</li>
+                    <li class="px-md-2">Rss Feed</li>
+                    <li class="px-md-2">Quora</li>
+                    <li class="px-md-2">Tumblr</li>
                 </ul>
             </div>
         </div>
         <!-- MID FOOTER -->
-        <div class="mid-footer">
-            <div class="subsribe">
+        <div class=" mid-footer row ">
+            <div class="subsribe col-md-5">
                 <h2 class="footer-title">subscribe</h2>
                 <input type="email" placeholder="arsanigames@arsani.com" required>
-                <button class="btn-subscribe">send</button>
+                <button class="btn-subscribe p-md-2">send</button>
             </div>
 
-            <div class="contact">
+            <div class="contact col-md-3">
                 <h2 class="footer-title">contact</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                 <p>lorem4</p>
             </div>
 
-            <div class="about">
+            <div class="about col-md-4">
                 <h2 class="footer-title">about</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi earum exercitationem velit sequi
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi earum exercitationem
+                    velit sequi
                     ipsa autem veniam hic porro dolore ea.</p>
             </div>
         </div>
 
-        <div class="bottom-footer">
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
-            <i class="fa fa-tumblr-square" aria-hidden="true"></i>
-            <i class="fa fa-quora" aria-hidden="true"></i>
+        <div class="bottom-footer d-md-flex flex-md-row-reverse justify-content-md-between">
+            <div class="social mx-md-1 px-md-2">
+                <i class="fa fa-facebook-official px-md-1" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square px-md-1" aria-hidden="true"></i>
+                <i class="fa fa-instagram px-md-1" aria-hidden="true"></i>
+                <i class="fa fa-pinterest-square px-md-1" aria-hidden="true"></i>
+                <i class="fa fa-tumblr-square px-md-1" aria-hidden="true"></i>
+                <i class="fa fa-quora px-md-1" aria-hidden="true"></i>
+            </div>
             <p><span>&#169;</span>All Rights Reserved</p>
             <p>2020 Arsani Games Inc.</p>
         </div>
