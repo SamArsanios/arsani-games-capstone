@@ -6,8 +6,7 @@
 .top-footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  /* background-color: #000; */
+  justify-content: space-between;
   color: #fff;
   border-top: 1px solid #fff;
   border-bottom: 2px solid #fff;
@@ -21,6 +20,17 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   padding: 0.6em 2em;
+}
+
+.logo-container {
+  border: 2px solid red;
+  text-align: center;
+  width: 100%;
+}
+
+.logo-bottom {
+  margin: 2.5em 0;
+  width: 200px;
 }
 
 .right-top-footer {
@@ -78,4 +88,24 @@ input[type="email"] {
 
 .bottom-footer p {
   margin-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .top-footer {
+    justify-content: space-between;
+  }
+  .right-top-footer {
+    margin-right: 2em;
+  }
+  .logo-bottom {
+    width: 81px;
+    margin: 0 0 0 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-bottom {
+    width: 81px;
+    margin: 0 0 0 36px;
+  }
 }
