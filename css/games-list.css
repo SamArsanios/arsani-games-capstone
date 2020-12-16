@@ -55,6 +55,7 @@ select {
   width: 85%;
   margin: 3em auto;
   white-space: nowrap;
+  padding-bottom: 1em;
 }
 
 .game-list-container h2 {
@@ -92,6 +93,11 @@ select {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.game-list-item a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Medium Screen Media Query  */
