@@ -27,7 +27,6 @@ select {
 .inputs {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
-  padding: 1em;
   font-size: 1.2em;
   padding: 1.5em 3em;
 }
@@ -48,7 +47,6 @@ select {
 }
 
 .game-list-item {
-  margin: 1em 1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.3em;
   box-shadow: 0 4px 8px #aaa;

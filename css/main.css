@@ -42,7 +42,6 @@ input[type="text"] {
 
 .btn-how {
   width: 25%;
-  margin: 2em 2em;
   background-color: #9f9f9f;
   color: #333;
   padding: 10px 10px;
@@ -110,7 +109,6 @@ input[type="text"] {
 @media (min-width: 768px) and (max-width: 1024px) {
   .search-by {
     width: 80%;
-    flex-direction: row;
     margin-left: 0.5em;
     padding: 2em;
     flex-direction: column;
@@ -152,7 +150,6 @@ input[type="text"] {
 @media (min-width: 1024px) {
   .search-by {
     width: 80%;
-    flex-direction: row;
     margin-left: 0.5em;
     padding: 2em;
     flex-direction: column;
