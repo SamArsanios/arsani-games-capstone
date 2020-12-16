@@ -62,7 +62,7 @@ input[type="text"] {
   /* border: 2px solid yellowgreen; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  margin: 0em 3em 0em 3em;
+  margin: 3em 3em 5em 3em;
 }
 
 .img-search {
@@ -136,6 +136,9 @@ input[type="text"] {
   .d-md-flex {
     padding: 1.5em 0 4.5em 0;
   }
+  .steps-item {
+    margin: 0em 3em 0em 3em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -161,5 +164,8 @@ input[type="text"] {
   }
   .d-md-flex {
     padding: 1.5em 0 4.5em 0;
+  }
+  .steps-item {
+    margin: 0em 3em 0em 3em;
   }
 }
