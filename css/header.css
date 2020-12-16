@@ -1,13 +1,10 @@
 /* NAVIVAGTION */
 .nav-wrapper {
-  /* display: flex;
-  flex-direction: column; */
   background-color: #d4574a;
   color: #fff;
 }
 
 .nav-1 {
-  border: 2px solid red;
   text-align: center;
   width: 100%;
   /* height: 10%; */
@@ -17,11 +14,9 @@
   width: 160px;
   padding: 0;
   height: 100%;
-  border: 2px solid green;
 }
 
 .nav-2 {
-  border: 2px solid blue;
   /* display: flex;
   flex-direction: row;
   justify-content: space-evenly; */

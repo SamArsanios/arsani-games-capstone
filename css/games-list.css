@@ -54,6 +54,7 @@ select {
   text-align: center;
   width: 85%;
   margin: 3em auto;
+  white-space: nowrap;
 }
 
 .game-list-container h2 {
@@ -82,22 +83,36 @@ select {
   cursor: pointer;
 }
 
+.relative {
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* Medium Screen Media Query  */
 @media (min-width: 768px) and (max-width: 1024px) {
   .inputs {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 0;
-    grid-column-gap: 2em;
+    grid-column-gap: 1em;
   }
   .game-list-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     padding: 0;
-    grid-column-gap: 1.5em;
+    grid-column-gap: 0;
   }
   .form-container h2 {
     padding: 1em 0 1em 0;
+  }
+  .games-list-item label {
+    white-space: nowrap;
   }
 }
 
@@ -106,9 +121,9 @@ select {
   .inputs,
   .game-list-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
     padding: 0;
-    grid-column-gap: 0.5em;
+    /* grid-column-gap: 0.5em; */
   }
   .game-list-item p {
     font-size: 1em;
