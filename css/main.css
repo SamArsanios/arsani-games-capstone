@@ -15,11 +15,13 @@
   width: 80%;
   background-color: #babbc3;
   opacity: 0.9;
+  border-radius: 5px;
+  margin: 3em 0;
+  padding: 1em 0.5em;
 }
 
 input[type="text"] {
   width: 75%;
-  height: 20px;
   border-radius: 5px;
   border: none;
   padding: 0.6em;
@@ -30,6 +32,7 @@ input[type="text"] {
   width: 75%;
   margin: 15px auto;
   background-color: #d4574a;
+  color: #fff;
   padding: 10px 10px;
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -42,14 +45,14 @@ input[type="text"] {
   width: 25%;
   margin: 2em 2em;
   background-color: #9f9f9f;
-  color: white;
+  color: #333;
   padding: 10px 10px;
-  margin: 8px 0;
+  margin: 2em 0;
   border: none;
   cursor: pointer;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 400;
-  font-size: 0.9em;
+  font-weight: 500;
+  font-size: 1em;
 }
 
 .section-2 {
@@ -81,13 +84,34 @@ input[type="text"] {
 
 .mid-section h2 {
   font-size: 1.5em;
+  color: #fff;
+  margin-top: 1em;
 }
 
 .mid-section h3 {
-  font-size: 1em;
+  font-size: 1.4em;
 }
 
 .mid-section p {
   font-size: 0.9em;
   margin-top: 0.3em;
+}
+
+/* Large Screen Media Query  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .search-by {
+    width: 50%;
+    flex-direction: row;
+    margin-left: 0.5em;
+    padding: 2em;
+  }
+  input[type="text"] {
+    width: 200px;
+  }
+  .mid-section h3 {
+    font-size: 1em;
+  }
+  .search-by {
+    flex-direction: row;
+  }
 }
