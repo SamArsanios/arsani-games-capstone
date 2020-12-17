@@ -72,6 +72,7 @@ input[type="email"] {
   background-color: #111;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
+  padding: 0.5em;
 }
 
 /* bottom footer */
@@ -91,6 +92,10 @@ input[type="email"] {
 
 .bottom-footer p {
   margin-bottom: 0;
+}
+
+.contact span {
+  color: #d4574a;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
