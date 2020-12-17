@@ -11,7 +11,7 @@
 
 .logo {
   width: 160px;
-  padding: 0;
+  padding-top: 1em;
   height: 100%;
 }
 
@@ -48,7 +48,7 @@
 
   .logo {
     width: 150px;
-    padding: 0;
+    padding: 1em;
   }
 
   .nav-2 {
@@ -76,6 +76,9 @@
     margin-left: 7.9em;
     width: 100%;
     padding: 2.5em 0 0 0;
+  }
+  .logo {
+    padding: 1em;
   }
 }
 
