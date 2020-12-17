@@ -17,13 +17,8 @@
   list-style: none;
   font-size: 1em;
   font-weight: 600;
-  font-family:
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
-    "Lucida Grande",
-    "Lucida Sans",
-    Arial,
-    sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding: 0.6em 2em;
 }
 
@@ -44,13 +39,8 @@
 /* mid footer */
 .mid-footer {
   text-align: center;
-  font-family:
-    "Trebuchet MS",
-    "Lucida Sans Unicode",
-    "Lucida Grande",
-    "Lucida Sans",
-    Arial,
-    sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin: 2em 0;
 }
 
@@ -68,18 +58,20 @@
 }
 
 input[type="email"] {
-  width: 70%;
+  width: 75%;
   font-size: 1em;
   border: 1px solid #fff;
-  padding: 0.6em;
+  padding: 0.5em;
+  background-color: #111;
+  color: #fff;
 }
 
 .btn-subscribe {
-  padding: 0.6em;
-  width: 15%;
   font-size: 1em;
-  border: none;
+  border: 1px solid #fff;
+  background-color: #111;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
 }
 
 /* bottom footer */
@@ -89,7 +81,7 @@ input[type="email"] {
   color: #fff;
   text-align: center;
   margin-top: 1em;
-  padding: 1.5em 0;
+  padding: 1.5em 3em;
 }
 
 .fa {
