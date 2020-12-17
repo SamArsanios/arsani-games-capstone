@@ -83,7 +83,7 @@ input[type="text"] {
   text-align: center;
 }
 
-.mid-section h2 {
+.mid-section h1 {
   font-size: 1.7em;
   color: #fff;
   margin: 1.5em auto;
@@ -91,7 +91,7 @@ input[type="text"] {
   font-weight: 550;
 }
 
-.section-2 h2 {
+.section-2 h1 {
   color: #d4574a;
 }
 
