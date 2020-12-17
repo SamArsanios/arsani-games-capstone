@@ -18,6 +18,7 @@ An online gaming website.This project has 3 pages, homepage, search games page, 
 
 ![Games Page layout](./assets/screenshot/search-layout.jpg)-->
 
+## Technologies used in this Project
 
 ![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
@@ -31,10 +32,10 @@ An online gaming website.This project has 3 pages, homepage, search games page, 
 
 To get a local copy up and running follow these simple steps.
 
-- `git clone https://github.com/abeidahmed/html-css-capstone`
-- `cd html-css-capstone`
-- `git checkout -b project-branch`
-- `git pull origin project-branch`
+- `git clone https://github.com/SamArsanios/arsani-games-capstone`
+- `cd arsani-games-capstone`
+- `git checkout -b project-capstone`
+- `git pull origin project-capstone`
 - If you have vscode `live-server` installed, run it`
 
 ## Authors
@@ -57,6 +58,6 @@ Give a ⭐️ if you like this project!
 - [Sam Achola and Matthew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE) for the project guidelines.
 - [Microverse](https://www.microverse.org/) for their `README` [template](https://github.com/microverseinc/readme-template).
 
-## 📝 License
+<!--## 📝 License-->
 
 
