@@ -1,0 +1,131 @@
+.footer-container {
+  background-color: #000;
+  padding: 0.09px;
+}
+
+.top-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin: 2em 2em;
+}
+
+.top-footer ul li {
+  list-style: none;
+  font-size: 1em;
+  font-weight: 600;
+  font-family:
+    "Trebuchet MS",
+    "Lucida Sans Unicode",
+    "Lucida Grande",
+    "Lucida Sans",
+    Arial,
+    sans-serif;
+  padding: 0.6em 2em;
+}
+
+.logo-container {
+  text-align: center;
+  width: 100%;
+}
+
+.logo-bottom {
+  margin: 1.5em 0;
+  width: 200px;
+}
+
+.right-top-footer {
+  margin-right: 3em;
+}
+
+/* mid footer */
+.mid-footer {
+  text-align: center;
+  font-family:
+    "Trebuchet MS",
+    "Lucida Sans Unicode",
+    "Lucida Grande",
+    "Lucida Sans",
+    Arial,
+    sans-serif;
+  margin: 2em 0;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+
+.mid-footer p {
+  color: #aaa;
+  margin: 0;
+}
+
+input[type="email"] {
+  width: 75%;
+  font-size: 1em;
+  border: 1px solid #fff;
+  padding: 0.5em;
+  background-color: #111;
+  color: #fff;
+}
+
+.btn-subscribe {
+  font-size: 1em;
+  border: 1px solid #fff;
+  background-color: #111;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  padding: 0.5em;
+}
+
+/* bottom footer */
+.bottom-footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1f1f1f;
+  color: #fff;
+  text-align: center;
+  margin-top: 1em;
+  padding: 1.5em 3em;
+}
+
+.fa {
+  font-size: 1.45em;
+  margin-bottom: 1em;
+}
+
+.bottom-footer p {
+  margin-bottom: 0;
+}
+
+.contact span {
+  color: #d4574a;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .top-footer {
+    justify-content: space-between;
+  }
+
+  .right-top-footer {
+    margin-right: 2em;
+  }
+
+  .logo-bottom {
+    width: 160px;
+    margin: 1em 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-bottom {
+    width: 160px;
+    margin: 1em 0;
+  }
+}

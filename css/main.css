@@ -1,0 +1,190 @@
+/* TOP SECTION 1 */
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../assets/images/gaming10.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.search-by {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: #babbc3;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin: 3em 0;
+  padding: 1em 0.5em;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: none;
+  padding: 0.4em;
+  font-size: 1em;
+}
+
+.btn-search-container {
+  background-color: #d4574a;
+  margin: 1em 0;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.btn-search {
+  width: 100%;
+  margin: 15px auto;
+  background-color: #d4574a;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.btn-how {
+  width: 25%;
+  background-color: #9f9f9f;
+  color: #333;
+  padding: 10px 10px;
+  margin: 2em 0;
+  border: none;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.section-2 {
+  text-align: center;
+  width: 100%;
+}
+
+.steps-item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 3em 3em 5em 3em;
+}
+
+.img-search {
+  width: 10%;
+}
+
+.mid-section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.mid-section h1 {
+  font-size: 1.7em;
+  color: #fff;
+  margin: 1.5em auto;
+  text-transform: uppercase;
+  font-weight: 550;
+}
+
+.section-2 h1 {
+  color: #d4574a;
+}
+
+.mid-section h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.mid-section p {
+  font-size: 0.9em;
+  margin-top: 0.3em;
+}
+
+/* Large Screen Media Query  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .search-by {
+    width: 80%;
+    margin-left: 0.5em;
+    padding: 2em;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    border: none;
+    margin-right: 0.5em;
+  }
+
+  .btn-search-container {
+    margin: 0;
+  }
+
+  .btn-search {
+    width: 30%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .mid-section h3 {
+    font-size: 1em;
+  }
+
+  .search-form {
+    display: flex;
+  }
+
+  .d-md-flex {
+    padding: 1.5em 0 4.5em 0;
+  }
+
+  .steps-item {
+    margin: 0 3em 0 3em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .search-by {
+    width: 80%;
+    margin-left: 0.5em;
+    padding: 2em;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  input[type="text"] {
+    margin-right: 0.5em;
+  }
+
+  .btn-search-container {
+    margin: 0;
+  }
+
+  .btn-search {
+    width: 30%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .search-form {
+    display: flex;
+  }
+
+  .d-md-flex {
+    padding: 1.5em 0 4.5em 0;
+  }
+
+  .steps-item {
+    margin: 0 3em 0 3em;
+  }
+}

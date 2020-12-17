@@ -1,0 +1,142 @@
+/* top section */
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 0.5em 0 2em 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.form-container {
+  background-color: #eee;
+}
+
+.form-container h1 {
+  margin: 0 0 0 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5em;
+  color: #888;
+  padding: 1em 0 0 0;
+}
+
+.inputs {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 1.5em 3em;
+}
+
+.btn-list {
+  background-color: #d4574a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.games-list h2 {
+  margin: 1.7em;
+}
+
+.game-list-item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3em;
+  box-shadow: 0 4px 8px #aaa;
+  text-align: center;
+  width: 85%;
+  margin: 3em auto;
+  white-space: nowrap;
+  padding-bottom: 1em;
+}
+
+.game-list-container h2 {
+  margin: 1em 0.7em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.game-list-item img {
+  width: 100%;
+}
+
+.game-list-item h3,
+.game-list-item p {
+  margin: 0.3em 0;
+}
+
+.btn-view {
+  font-size: 0.8em;
+  background-color: #d4574a;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.relative {
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.game-list-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Medium Screen Media Query  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .inputs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0;
+    grid-column-gap: 1em;
+  }
+
+  .game-list-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    grid-column-gap: 0;
+  }
+
+  .form-container h1 {
+    padding: 1em 0 1em 0;
+  }
+
+  .games-list-item label {
+    white-space: nowrap;
+  }
+}
+
+/* Large Screen Media Query  */
+@media (min-width: 1024px) {
+  .inputs,
+  .game-list-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0;
+  }
+
+  .game-list-item p {
+    font-size: 1em;
+  }
+
+  .form-container h1 {
+    padding: 1em 0 1em 0;
+  }
+}
