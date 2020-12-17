@@ -55,9 +55,6 @@
     margin-left: 0;
     width: 100%;
   }
-
-  .nav-2 .fa {
-  }
 }
 
 /* Large Screens */
@@ -77,6 +74,7 @@
     width: 100%;
     padding: 2.5em 0 0 0;
   }
+
   .logo {
     padding: 1em;
   }
