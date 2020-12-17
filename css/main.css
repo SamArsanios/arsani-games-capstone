@@ -26,6 +26,12 @@ input[type="text"] {
   font-size: 1em;
 }
 
+.btn-search-container {
+  background-color: #d4574a;
+  margin: 1em 0;
+  padding: 0.5em 0 0.5em 0;
+}
+
 .btn-search {
   width: 100%;
   margin: 15px auto;
@@ -116,9 +122,12 @@ a:hover {
 
   input[type="text"] {
     width: 100%;
-    border-radius: 5px;
     border: none;
     margin-right: 0.5em;
+  }
+
+  .btn-search-container {
+    margin: 0;
   }
 
   .btn-search {
@@ -155,6 +164,10 @@ a:hover {
 
   input[type="text"] {
     margin-right: 0.5em;
+  }
+
+  .btn-search-container {
+    margin: 0;
   }
 
   .btn-search {
