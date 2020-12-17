@@ -64,8 +64,6 @@ select {
 
 .game-list-item img {
   width: 100%;
-
-  /* border-radius: 50%; */
 }
 
 .game-list-item h3,
@@ -132,8 +130,6 @@ select {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding: 0;
-
-    /* grid-column-gap: 0.5em; */
   }
 
   .game-list-item p {

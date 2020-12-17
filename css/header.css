@@ -7,8 +7,6 @@
 .nav-1 {
   text-align: center;
   width: 100%;
-
-  /* height: 10%; */
 }
 
 .logo {
@@ -18,13 +16,8 @@
 }
 
 .nav-2 {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; */
   text-align: center;
   padding: 1em;
-
-  /* width: 100%; */
 }
 
 .nav-2 .fa {
@@ -51,8 +44,6 @@
 
   .nav-1 {
     text-align: left;
-
-    /* width: 600px; */
   }
 
   .logo {
@@ -66,8 +57,6 @@
   }
 
   .nav-2 .fa {
-    /* padding: 1em 1em;
-    font-size: 1.6em; */
   }
 }
 
