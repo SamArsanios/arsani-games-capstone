@@ -21,7 +21,6 @@
 
 input[type="text"] {
   width: 100%;
-  border-radius: 5px;
   border: none;
   padding: 0.4em;
   font-size: 1em;
@@ -38,6 +37,16 @@ input[type="text"] {
   font-weight: 600;
   font-size: 0.9em;
   opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
 
 .btn-how {
@@ -115,6 +124,7 @@ input[type="text"] {
   .btn-search {
     width: 30%;
     margin: 0;
+    text-align: center;
   }
 
   .mid-section h3 {
@@ -150,6 +160,7 @@ input[type="text"] {
   .btn-search {
     width: 30%;
     margin: 0;
+    text-align: center;
   }
 
   .search-form {
