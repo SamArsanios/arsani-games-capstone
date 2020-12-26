@@ -1,4 +1,4 @@
-# arsani-games-capstone
+# arsani-games-capstone-project
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
