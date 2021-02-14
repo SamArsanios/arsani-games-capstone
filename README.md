@@ -1,8 +1,6 @@
-# arsani-games-capstone-project
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML & CSS3 Capstone Project
+# HTML & CSS3 Capstone Project - arsani-games
 
 An online gaming website.This project has 3 pages, homepage, search games page, and game details page. It is responsive and has 3 breakpoints. 
 
